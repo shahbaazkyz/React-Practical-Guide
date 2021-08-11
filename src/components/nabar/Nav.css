@@ -1,0 +1,36 @@
+.Nav{
+    display: inline-block;
+}
+.navItems{
+    display: inline-block;
+}
+
+.logoImg{
+    width: 234px;
+    cursor: pointer;
+    margin-left: 110px;
+    margin-bottom: -21px;
+}
+
+.logo{
+    display: inline-block;
+    width: 233px;
+}
+
+ul{
+    margin-left: 260px;
+}
+
+li{
+display: inline-block;
+cursor: pointer;
+font-family: sans-serif;
+letter-spacing: 3px;
+padding: 0px 0px 0px 79px;
+text-transform: uppercase;
+    
+}
+
+li:hover{
+    color: #506ef5;
+}

@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const fn = () => {
+    let arr = ["A", "B", "C"];
+    let obj = {
+        name: "Shahbaz",
+        age : 21
+    }
+    let str = "Hello World";
+    let numb = 21
+
+    let dynamicCSS = {
+        fontSize : "18px",
+        fontWeight : 500,
+        borderBottom: "solid 1px black",
+        width : "160px"
+    }
+
+    return (
+        <div>
+            <p style={{ color: "red" }}  >Component 1: Para 1 { arr.join(" ") }</p>
+            <p style = {dynamicCSS} >Component 1: Para 2 {str} {obj.name } {obj.age}   </p>
+            <p className = "container">Component 1: Para 3 {numb}  </p>
+        </div>
+    );
 }
 
-export default App;
+export default fn;

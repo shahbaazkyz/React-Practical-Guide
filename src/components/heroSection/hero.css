@@ -1,0 +1,32 @@
+.featured{
+    margin: -397px 0px 0px 128px;
+}
+
+.main{
+    font-family: -webkit-pictograph;
+    font-size: 58px;
+    font-weight: bolder;
+}
+
+.title{
+        font-family: monospace;
+        font-size: 18px;
+        font: caption;
+        margin-top: -34px;
+        letter-spacing: 6px;
+}
+
+.fBtn{
+    padding: 14px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: white;
+    border: 1px solid #506ef5;
+    color: #506ef5;
+}
+
+.fBtn:hover{
+    background-color: #506ef5;
+    color: white;
+}
